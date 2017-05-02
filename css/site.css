@@ -33,4 +33,9 @@ img#logoimage {
 
 #main-menu {
   margin-left: 10px;
+  margin-top: 10px;
+}
+
+.fab {
+  margin-top: 25px;
 }
