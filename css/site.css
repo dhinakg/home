@@ -36,7 +36,9 @@ body {
 
 .fab i {
     font-size: 44px;
-    align-content: center;
+    display: table-cell;
+    vertical-align: middle;
+    
 }
 
 .fab:hover {
