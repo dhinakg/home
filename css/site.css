@@ -25,37 +25,12 @@ body {
     letter-spacing: -8px;
 }
 
-.fab {
-    background-color: #4EC38F;
-    border-radius: 50%;
-    width: 72px;
-    height: 72px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
-    transition: all 0.2s;
-}
-
-.fab i {
-    font-size: 44px;
-    display: table-cell;
-    vertical-align: middle;
-
-}
-
-.fab:hover {
-    background-color: #4ECE8F;
-    cursor: pointer;
-    box-shadow: 0px 3px 7px rgba(0,0,0,0.3);
-    background-color:
-}
-
-.fab:active {
-    background-color: #4EE28F;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-}
-
 img#logoimage {
     display: inline-block;
     padding-top: 10px;
     vertical-align: text-top;
+}
+
+#main-menu {
+  margin-left: 10px;
 }
