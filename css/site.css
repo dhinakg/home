@@ -41,10 +41,11 @@ img#logoimage {
   margin-top: 25px;
 }
 
-.mdl-list__item-primary-content { color: #FFFFFF; }
+.mdl-list__item-primary-content {
+  color: #FFFFFF;
+}
 
-.mdl-menu__item a
-{
+.mdl-menu__item a {
   display: block;
   text-decoration: none;
   color: #424242;
