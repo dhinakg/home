@@ -40,3 +40,5 @@ img#logoimage {
 .fab {
   margin-top: 25px;
 }
+
+.mdl-list__item-primary-content { color: #FFFFFF; }
