@@ -43,6 +43,8 @@ img#logoimage {
 
 .mdl-list__item-primary-content { color: #FFFFFF; }
 
-a {
+.mdl-menu__item a {
   display: block;
+  text-decoration: none;
+  color: #424242;
 }
