@@ -42,3 +42,7 @@ img#logoimage {
 }
 
 .mdl-list__item-primary-content { color: #FFFFFF; }
+
+a {
+  display: block;
+}
