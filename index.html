@@ -30,6 +30,7 @@
 
         <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="main-menu">
           <li class="mdl-menu__item"><a href="index.html">Home</a></li>
+          <li class="mdl-menu__item"><a href="chat/index.html">Chat</a></li>
           <li class="mdl-menu__item mdl-menu__item--full-bleed-divider"><a href="about.html">About</a></li>
           <li disabled class="mdl-menu__item">Uses Material Design Lite</li>
           <li disabled class="mdl-menu__item">Written with &lt;3</li>
@@ -40,9 +41,21 @@
             <span>HackBar</span>
             <p style="font-size: 24px; letter-spacing: normal; margin-top: 25px;">When you've bitten off more than you can chew.</p>
             <!-- Start chat button -->
-            <button style="background-color: #4EC38F;" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect fab">
+            <a href="javascript:void(Tawk_API.toggle())"><button style="background-color: #4EC38F;" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect fab">
               <i class="mdi mdi-message-draw"></i>
-            </button>
+            </button></a>
         </div>
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5908d02d64f23d19a89b057f/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
       </body>
 </html>
