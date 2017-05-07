@@ -26,6 +26,7 @@ body {
     letter-spacing: -8px;
 }
 
+
 img#logoimage {
     display: inline-block;
     padding-top: 10px;
@@ -49,4 +50,8 @@ img#logoimage {
   display: block;
   text-decoration: none;
   color: #424242;
+}
+
+.mdl-data-table {
+  color: #000;
 }
