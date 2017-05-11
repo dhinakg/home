@@ -1,1 +1,1 @@
-[a](https://osxhackbar.github.io/home)
+[click](https://osxhackbar.github.io/home)
