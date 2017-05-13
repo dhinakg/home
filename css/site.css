@@ -59,3 +59,13 @@ img#logoimage {
 .tawktawk {
   margin: 0 auto;
 }
+
+.catchphrase {
+  font-size: 24px;
+  letter-spacing: normal;
+  margin-top: 25px;
+}
+
+.onlymobile {
+  display: none;
+}

@@ -1,0 +1,13 @@
+.maincaption > span {
+  font-size: 64px;
+  letter-spacing: -3px;
+}
+
+.catchphrase {
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.onlymobile {
+  display: inline;
+}

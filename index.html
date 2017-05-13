@@ -19,7 +19,7 @@
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
         <!-- import site styles -->
         <link rel="stylesheet" href="css/site.css">
-
+        <link rel="stylesheet" media="only screen and (max-device-width: 750px)" href="css/mobile.css">
         <title>HackBar</title>
       </head>
       <body>
@@ -40,8 +40,9 @@
         <!-- Main caption -->
         <div class="maincaption">
             <img width="128" height="128" id="logoimage" src="images/hackbarlogo.PNG">
+            <br class="onlymobile">
             <span>HackBar</span>
-            <p style="font-size: 24px; letter-spacing: normal; margin-top: 25px;">For when you've bitten off more than you can chew.</p>
+            <p class="catchphrase">For when you've bitten off more than you can chew.</p>
             <!-- Start chat button -->
             <a href="javascript:void(Tawk_API.toggle())"><button style="background-color: #0EDD72;" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect fab">
               <i class="mdi mdi-message-draw"></i>
